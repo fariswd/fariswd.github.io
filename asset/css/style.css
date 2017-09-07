@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face{
+  font-family: "bebas";
+  src: url("../font/BebasNeue.otf");
+}
+
+h1{
+  font-family: bebas;
+  font-size:26px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+header {
+  background-color: darkgray;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+nav {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.logo {
+  /*margin-left: 30px;
+  margin-top: 30px;*/
+  margin: 0 0 0 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "bebas";
+}
+
+body {
+  background: url("../img/wall-of-white-bricks-background_1100-187.jpg");
+}
+
+.container {
+  height: 620px;
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.container img{
+  width: 100%;
+}
+
+.container .slider{
+  box-shadow: 3px 4px 5px #999;
+  margin: 0 auto 20px auto;
+  width: 80%;
+}
+
+.cotainer h1,p {
+  margin-top: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+.content {
+  text-align: justify;
+  margin-top: 20px;
+}

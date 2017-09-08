@@ -6,6 +6,8 @@
 @font-face{
   font-family: "bebas";
   src: url("../font/BebasNeue.otf");
+  font-family: "timeless";
+  src: url("../font/Timeless.otf");
 }
 
 h1{

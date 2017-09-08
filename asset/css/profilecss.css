@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: "bebas";
+  src: url("../font/BebasNeue.otf");
+}
+
+@font-face {
+  font-family: "timeless";
+  src: url("../font/Timeless.ttf");
+}
+
+body {
+  background: url("../img/sample-pattern.png");
+}
+
+header {
+  width: 100%;
+  background-color: rgb(124,160,62);
+  margin-bottom: 10px;
+  font-family: timeless;
+  padding: 0 0 10px 0;
+}
+
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 10px;
+}
+
+.top{
+  width: 70%;
+  margin: auto;
+}
+
+.nav {
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  padding: 10;
+  margin-top: -10px;
+}
+
+.profile {
+  width: 200px;
+  float: left;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.soc {
+  margin-top: 10px;
+  width:25px;
+}
+
+.uname {
+  margin-top: -20px;
+  margin-left: 60px;
+}
+
+.picgray {
+  border-radius: 80%;
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.bio {
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.imgproject {
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: rgb(153, 153, 153) 3px 4px 5px 0px;
+}
+
+h1{
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+
+.tagline {
+  font-family: timeless;
+  font-style: italic;
+  border-bottom: 1px solid black;
+}
+
+.projects {
+
+}
+
+.project {
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+
+}
+
+p {
+  font-family: timeless;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+footer ul li {
+  margin-left: 20px;
+  text-decoration: none;
+
+}

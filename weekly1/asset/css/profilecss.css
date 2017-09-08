@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: "bebas";
+  src: url("../font/BebasNeue.otf");
+}
+
+@font-face {
+  font-family: "timeless";
+  src: url("../font/Timeless.ttf");
+}
+
+body {
+  background: url("../img/sample-pattern.png");
+}
+
+header {
+  width: 100%;
+  background-color: rgb(124,160,62);
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  font-family: timeless;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.nav{
+  width: 70%;
+  margin: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+
+}
+
+.profile {
+  width: 200px;
+  float: left;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.picgray {
+  border-radius: 80%;
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.bio {
+  margin-left: 220px;
+}
+
+h1{
+  font-family: bebas;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: timeless;
+  margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+
+    text-align: center;
+
+footer ul li {
+  margin-left: 20px;
+  text-decoration: none;
+
+}

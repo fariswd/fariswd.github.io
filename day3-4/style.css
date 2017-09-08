@@ -1,0 +1,73 @@
+* {
+  font-family: 'Slabo 27px';
+
+}
+
+body {
+  background: url("img/sample-pattern.png");
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #FFF;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+#logo {
+  float: left;
+  padding: 10px 10px;
+}
+
+nav {
+  float: right;
+}
+
+
+li {
+  display: inline-block;
+  padding-right: 30px;
+  color: #4e8cd9;
+}
+
+h1 {
+  padding-top: 75px;
+  text-align: center;
+  color: #34495e;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #4e8cd9;
+}
+
+article {
+  border-bottom: 1px solid #ebeaeb;
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+}
+
+section {
+  padding-bottom: 80px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+}
+
+a {
+  text-decoration: none;
+}

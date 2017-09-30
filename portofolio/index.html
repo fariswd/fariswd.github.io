@@ -8,103 +8,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="asset/jQCloud2/dist/jqcloud.min.js"></script>
-  <link rel="stylesheet" href="basset/jQCloud2/dist/jqcloud.min.css">
 
-  <script>
-    function myFunction() {
-        var w = window.innerWidth;
-        var h = window.innerHeight;
-        return h;
-    }
-  </script>
-
-  <style>
-  body {
-      position: relative;
-  }
-  #section1 {
-    padding-top:50px;
-    height:100vh;
-    color: #fff;
-    background-color: #1E88E5;
-  }
-  #hi{
-    text-align: center;
-    margin-top: 35vh;
-  }
-
-  #section2 {
-    height:100vh;
-    color: #fff;
-    background-color: #673ab7;
-  }
-  #intro{
-    margin: 20vh auto 0 auto;
-    width: 60%;
-    padding: 10px;
-
-  }
-  #skill{
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    background-color: gray;
-  }
-  img#prof{
-    display: block;
-    margin: auto;
-    width: 200px;
-  }
-  #bio{
-    border-left: 1px solid gray;
-  }
-
-  #section3 {
-    padding-top:50px;
-    height:100vh;
-    color: #fff;
-    background-color: #ff9800;
-  }
-
-  #journey{
-    background-color: gray;
-    margin: 10vh;
-    margin-bottom: 100px;
-    height: 100%;
-  }
-
-  #section4 {
-    height:100vh;
-    color: #fff;
-    background-color: #00bcd4;
-  }
-  #carr{
-    width: 100vh;
-    height: 100vh;
-    margin: auto;
-  }
-  #myCarousel{
-    margin: 20vh auto 0 auto;
-    padding: 10px;
-  }
-  img#carousel{
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #section5 {
-    padding-top:50px;
-    height:100vh;
-    color: #fff;
-    background-color: #009688;
-  }
-  #section6 {
-    padding-top:50px;
-    height:100vh;
-    color: #fff;
-    background-color: rgb(172,130,109);
-  }
-  </style>
+  <link rel="stylesheet" href="./asset/css/style.css" type="text/css">
+  
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -121,25 +27,25 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Hi</a></li>
-          <li><a href="#section2">Intro</a></li>
-          <li><a href="#section3">Journey</a></li>
-          <li><a href="#section4">Lab</a></li>
-          <li><a href="#section5">Interest</a></li>
-          <li><a href="#section6">Contact</a></li>
+          <li><a href="#Hi">Hi</a></li>
+          <li><a href="#Intro">Intro</a></li>
+          <li><a href="#Journey">Journey</a></li>
+          <li><a href="#Lab">Lab</a></li>
+          <li><a href="#Interest">Interest</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </div>
 </nav>
 
-<div id="section1" class="container-fluid">
+<div id="Hi" class="container-fluid">
   <div id="hi">
     <h1>Hi, I make Things</h1>
   </div>
 </div>
 
-<div id="section2" class="container-fluid">
+<div id="Intro" class="container-fluid">
   <div id="intro" class="row">
      <div id="profile" class="col-sm-5"><img id="prof" src="asset/img/profile.jpg" /></div>
      <div id="bio" class="col-sm-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra lacus mauris, ac tempus arcu blandit eu. Etiam in nunc enim. Proin eget nulla iaculis, tempor nibh a, lacinia metus. Nam convallis ut lectus id scelerisque. Curabitur ac eros at ex ultrices ultricies at eget felis. Nam at consectetur purus, et lacinia est. Cras rhoncus, est vitae dignissim auctor, nunc justo dapibus urna, et vulputate justo felis sed ipsum. Morbi vitae lacus molestie.</div>
@@ -149,72 +55,133 @@
   </div>
 </div>
 
-<div id="section3" class="container-fluid">
+<div id="Journey" class="container-fluid">
     <div id="journey" class="row">
       <div class="col-sm-4">btm</div>
       <div class="col-sm-8">btm</div>
     </div>
 </div>
 
-<div id="section4" class="container-fluid">
+<div id="Lab" class="container-fluid">
  <div id="carr">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img id="carousel" src="asset/img/1.jpg" alt="Los Angeles">
-        <div class="carousel-caption">asd</div>
-      </div>
-
-      <div class="item">
-        <img id="carousel" src="asset/img/2.jpg" alt="Chicago">
-      </div>
-
-      <div class="item">
-        <img id="carousel" src="asset/img/3.jpg" alt="New York">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+    <style>
+        #carousel-custom {
+            margin-top:  10px;
+            width: 100%;
+        }
+        #carousel-custom .carousel-indicators {
+            margin: 10px 0 0;
+            overflow: auto;
+            position: static;
+            text-align: left;
+            white-space: nowrap;
+            width: 100%;
+        }
+        #carousel-custom .carousel-indicators li {
+            background-color: transparent;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            display: inline-block;
+            height: auto;
+            margin: 0 !important;
+            width: auto;
+        }
+        #carousel-custom .carousel-indicators li img {
+            display: block;
+            opacity: 0.5;
+        }
+        #carousel-custom .carousel-indicators li.active img {
+            opacity: 1;
+        }
+        #carousel-custom .carousel-indicators li:hover img {
+            opacity: 0.75;
+        }
+        #carousel-custom .carousel-outer {
+            position: relative;
+        }
+        .carousel-control.left {
+            background-image: none;
+            width: 54px;
+            height: 54px;
+            top: 50%;
+            left: 20px;
+            margin-top: -27px;
+            line-height: 54px;
+            border: 2px solid #fff;
+            opacity: 1;
+            text-shadow: none;
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            -o-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s;
+        }
+        .carousel-control.right {
+            background-image: none;
+            width: 54px;
+            height: 54px;
+            top: 50%;
+            right: 20px;
+            margin-top: -27px;
+            line-height: 54px;
+            border: 2px solid #fff;
+            opacity: 1;
+            text-shadow: none;
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            -o-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s;
+        }
+        </style>
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-12">
+                  <div id="carousel-custom" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="./asset/img/1.jpg" alt="..." class="img-responsive">
+                    </div>
+                    <div class="item">
+                      <img src="./asset/img/2.jpg" alt="..." class="img-responsive">
+                    </div>
+                  </div>
+                
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-left"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
+                    <i class="fa fa-chevron-right"></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+                  
+                  
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
+                            <li data-target="#carousel-custom" data-slide-to="0" class="active">
+                              <img src="http://placehold.it/100x50&text=slide1" alt="..." class="img-responsive">
+                            </li>
+                            <li data-target="#carousel-custom" data-slide-to="1">
+                              <img src="http://placehold.it/100x50&text=slide2" alt="..." class="img-responsive">
+                            </li>
+                
+                          </ol> 
+                </div>
+                  
+                  </div>
+                  </div>
+        </div>
 </div>
 </div>
 
-<div id="section5" class="container-fluid">
+<div id="Interest" class="container-fluid">
   <h1>Section 5</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-<script>
-var words = [
-  {text: "Lorem", weight: 13},
-  {text: "Ipsum", weight: 10.5},
-  {text: "Dolor", weight: 9.4},
-  {text: "Sit", weight: 8},
-  {text: "Amet", weight: 6.2},
-  {text: "Consectetur", weight: 5},
-  {text: "Adipiscing", weight: 5},
-  /* ... */
-];
 
-$('#section6').jQCloud(words);
-</script>
-<div id="section6" class="container-fluid">
+<div id="Contact" class="container-fluid">
   <h1>Section 6</h1>
 
 </div>

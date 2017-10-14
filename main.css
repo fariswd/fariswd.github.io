@@ -68,3 +68,19 @@
     height: 35vh;
     overflow-y: auto;
 }
+
+.label-arduino{
+  background-color: #bd79d1;
+}
+
+.label-js{
+  background-color: #f0ad4e;
+}
+
+.label-php{
+  background-color: #4F5D95;
+}
+
+.label-python{
+  background-color: #3572A5;
+}

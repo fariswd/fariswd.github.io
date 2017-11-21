@@ -30,6 +30,30 @@ body {
   background-color: black;
 }
 
+.right_align {
+  text-align: right;
+}
+
+.header_cart, .header_trans {
+  border-bottom: 1px solid lightgray;
+}
+
+.data_cart, .data_trans{
+  padding: 0 2px 0 2px;
+}
+
+.footer_cart, .footer_trans{
+  border-top: 1px solid lightgray;
+}
+
+.grand_total {
+  text-align: right;
+}
+
+.grand_total_value {
+  font-weight: bold;
+}
+
 .featured {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -50,7 +74,11 @@ body {
 }
 
 .desc {
-  min-height: 150px;
+  min-height: 190px;
+}
+
+.price {
+  font-weight: bold;
 }
 
 .featured .title {

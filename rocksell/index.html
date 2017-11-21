@@ -358,78 +358,7 @@
     </div>
     
     <!-- vue instance -->
-    <script>
-      var vue = new Vue ({
-        el: '#app',
-        data: {
-          itemList: [],
-          cart: [],
-          total: 0
-        },
-        methods: {
-          getAllItem(){
-            fetch('data_dummy.json')
-            .then(r => r.json())
-            .then(json => {
-              this.itemList = json.item
-              console.log(json.item)
-            }).catch(err=>{
-              console.error();
-            })
-            // switch here if u want use json-server
-            //
-            // axios.get('http://localhost:3000/item')
-            // .then(response=>{
-            //   this.itemList = response.data
-            // }).catch(err=>{
-            //   console.error();
-            // })
-          },
-          addtocart(id){
-            var pos = this.checkId(id._id)
-            if(pos>=0){
-              this.cart[pos].qty += 1
-              this.total += this.cart[pos].priceidr
-              this.cart[pos].totalitem += this.cart[pos].priceidr
-            } else {
-              let item = this.itemList.find(element=>{
-                  return element._id == id._id
-              })
-              this.cart.push({
-                itemid: item._id,
-                name: item.itemName,
-                priceidr: item.priceidr,
-                qty: 1,
-                totalitem: item.priceidr
-              })
-              this.total += item.priceidr;
-            }
-          },
-          checkId(num){
-            return this.cart.findIndex(element=>{
-              return element.itemid == num
-            });
-          },
-          delId(deleteid){
-            let pos = this.cart.findIndex(element=>{
-              return deleteid.itemid == element.itemid
-            });
-            // console.log(pos);
-            this.total -= this.cart[pos].totalitem
-            this.cart.splice(pos,1)
-            $("#cart").modal("show");
-          },
-          checkout(){
-            this.cart = []
-            this.total = 0
-            alert('Your order has been received')
-            location.reload(); 
-          }
-        },
-        created() {
-          this.getAllItem();
-        }
-      })
+    <script src="assets/js/vuejs.js">
     </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

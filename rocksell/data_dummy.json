@@ -3,7 +3,7 @@
     {
       "_id": 1,
       "itemName": "Dragon Crew",
-      "image": "/assets/img/crew-dragon.jpg",
+      "image": "assets/img/crew-dragon.jpg",
       "specification": [
         {"passanger": 2},
         {"engine": "Nuclear reactor injector"}
@@ -14,7 +14,7 @@
     {
       "_id": 2,
       "itemName": "Silver Hawk",
-      "image": "/assets/img/silver_1.jpeg",
+      "image": "assets/img/silver_1.jpeg",
       "specification": [
         {"passanger": "-"},
         {"engine": "Solar Reactor"}
@@ -25,7 +25,7 @@
     {
       "_id": 3,
       "itemName": "Hydra Capsule",
-      "image": "/assets/img/SpaceX-capsule.jpg",
+      "image": "assets/img/SpaceX-capsule.jpg",
       "specification": [
         {"passanger": 1500000},
         {"engine": "Solar, Nuclear, Hybrid"}
@@ -36,7 +36,7 @@
     {
       "_id": 4,
       "itemName": "One Way Mars Ticket",
-      "image": "/assets/img/one-way.jpg",
+      "image": "assets/img/one-way.jpg",
       "specification": [
         {"passanger": 5},
         {"engine": "Venus Gas"}
@@ -47,7 +47,7 @@
     {
       "_id": 5,
       "itemName": "Moon Catcher",
-      "image": "/assets/img/mars-colonial-b.png",
+      "image": "assets/img/mars-colonial-b.png",
       "specification": [
         {"passanger": 5},
         {"engine": "Earth Gas"}
@@ -58,7 +58,7 @@
     {
       "_id": 6,
       "itemName": "Space Suit",
-      "image": "/assets/img/suit.jpg",
+      "image": "assets/img/suit.jpg",
       "specification": [
         {"solar_guard": true},
         {"o2_capacity": 10}

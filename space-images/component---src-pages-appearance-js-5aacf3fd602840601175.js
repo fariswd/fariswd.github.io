@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{142:function(e,n,a){"use strict";a.r(n);var t=a(0),c=a.n(t),r=a(150);n.default=function(){return c.a.createElement(r.a,null,c.a.createElement("h1",null,"appearance"))}}}]);
+//# sourceMappingURL=component---src-pages-appearance-js-5aacf3fd602840601175.js.map

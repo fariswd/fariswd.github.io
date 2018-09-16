@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{147:function(e,n,a){"use strict";a.r(n);var t=a(0),c=a.n(t),l=a(150);n.default=function(){return c.a.createElement(l.a,null,c.a.createElement("h1",null,"social media"))}}}]);
+//# sourceMappingURL=component---src-pages-social-media-js-0d4f5e8d33ed6718ca73.js.map
